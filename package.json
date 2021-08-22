@@ -1,0 +1,35 @@
+{
+  "name": "miso-energy",
+  "version": "1.0.0",
+  "description": "Package to get from Miso Energy API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch src --exec ts-node src/index.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.20",
+    "@types/node": "^14.14.31",
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaygraffagna/miso-energy.git"
+  },
+  "keywords": [
+    "miso",
+    "energy",
+    "node",
+    "web"
+  ],
+  "author": "Jay Graffagna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaygraffagna/miso-energy/issues"
+  },
+  "homepage": "https://github.com/jaygraffagna/miso-energy#readme"
+}
